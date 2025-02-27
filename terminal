@@ -1,0 +1,35 @@
+# First, create a new project with the new CLI
+npx create-expo-app@latest kitchen-chef --template blank-typescript
+
+# Navigate to project directory
+cd kitchen-chef
+
+# Install dependencies
+npm install
+
+# Install additional required packages
+npm install @supabase/supabase-js @react-navigation/native @react-navigation/native-stack react-native-safe-area-context react-native-screens @react-native-async-storage/async-storage expo-image-picker expo-notifications react-navigation-shared-element react-native-reanimated react-native-gesture-handler @expo/vector-icons expo-font expo-splash-screen
+
+# Start the development server
+npx expo start
+
+# Or for specific platforms
+npx expo start --android
+npx expo start --ios
+
+# Create project structure
+mkdir -p src/{screens,components,navigation,services,theme,context,lib}
+mkdir -p assets/{fonts,images}
+
+# Download required fonts
+curl -o assets/fonts/Poppins-Regular.ttf https://github.com/google/fonts/raw/main/ofl/poppins/Poppins-Regular.ttf
+curl -o assets/fonts/Poppins-Medium.ttf https://github.com/google/fonts/raw/main/ofl/poppins/Poppins-Medium.ttf
+curl -o assets/fonts/Poppins-Bold.ttf https://github.com/google/fonts/raw/main/ofl/poppins/Poppins-Bold.ttf
+
+# Clear expo cache
+npx expo start -c
+
+# Or if you're still having issues
+rm -rf node_modules
+npm install
+npx expo start -c 

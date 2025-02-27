@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#FF6B6B"/>
+  
+  <!-- Chef Hat -->
+  <path d="M512 212C673.385 212 804 342.615 804 504C804 665.385 673.385 796 512 796C350.615 796 220 665.385 220 504C220 342.615 350.615 212 512 212Z" fill="white"/>
+  
+  <!-- Face -->
+  <circle cx="512" cy="554" r="160" fill="#FFE0BD"/>
+  
+  <!-- Chef Hat Top -->
+  <path d="M512 292C628.901 292 724 387.099 724 504H300C300 387.099 395.099 292 512 292Z" fill="white"/>
+  
+  <!-- Mustache -->
+  <path d="M452 594C452 594 472 614 512 614C552 614 572 594 572 594" stroke="#2C1810" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Eyes -->
+  <circle cx="452" cy="554" r="8" fill="#2C1810"/>
+  <circle cx="572" cy="554" r="8" fill="#2C1810"/>
+  
+  <!-- Rosy Cheeks -->
+  <circle cx="422" cy="574" r="20" fill="#FFB6B6" opacity="0.5"/>
+  <circle cx="602" cy="574" r="20" fill="#FFB6B6" opacity="0.5"/>
+</svg> 
